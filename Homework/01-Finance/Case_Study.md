@@ -40,6 +40,13 @@ For its software use, Square leverages technologies in a number of ways. For one
 
 ## Landscape
 
+Because Square's seller ecosystem offerings are so diverse, it spans quite a few domains of the financial industry. For the purposes of this case study, we will be focusing primarily on the payment processing merchant acquiring aspect of Square's seller ecosystem business. 
+
+At a high level, merchant acquiring is needed for merchants to process card payments. They act as the merchant's acquiring bank, holding funds from the customers' issuing banks until it is time to be remitted to the merchant. Legacy acquirers include companies like Bank of America Merchant Services, First Data, and Chase Paymentech Solutions [[10]](https://www.capgemini.com/wp-content/uploads/2017/07/Challenges___Opportunities_for_Merchant_Acquirers.pdf). 
+
+Over the last five to ten years, there have been more and more companies emerging to allow small businesses to accept payment cards from a variety of sources. From point-of-sale systems, services like Clover, PayPal Here, and Stripe provide payment terminals that run through various rails that enable merchants to accept cards without setting up with legacy acquirers. As e-commerce has rapidly expanded in prominence over the last few years, services provided by companies like Shopify and Strip allow merchants to expand card acceptance to the digital realm, providing sets of APIs for their websites. A major selling point of these services is that the companies offering the services typically handle all of the payment credentials, and thus, the merchants themselves do not need to worry as much about PCI DSS and other data security standards.
+
+For Square, in the beginning, they were only competing against the legacy acquireres like BAMS, First Data, and Chase Paymentech, but as new players have innovated in this field, companies like Clover, PayPal, Stripe, and Shopify started jostling with Square for market share as well.
 
 ## Results
 
@@ -66,3 +73,5 @@ For its software use, Square leverages technologies in a number of ways. For one
 [8] https://digital.hbs.edu/platform-rctom/submission/square-using-machine-learning-to-de-risk-small-business-lending/
 
 [9] https://squareup.com/us/en/townsquare/cloud-pos
+
+[10] https://www.capgemini.com/wp-content/uploads/2017/07/Challenges___Opportunities_for_Merchant_Acquirers.pdf
