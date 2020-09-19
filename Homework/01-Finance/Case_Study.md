@@ -36,6 +36,8 @@ Compared to legacy merchant acquirers, the simplicity of adopting Square as well
 
 Regarding the technology used by Square, it can be broken up into hardware and software components. For hardware, it is the actual payment terminals that merchants can use to accept payment cards or contactless payments. Square initially came out with a card reader that plugged into a smartphone's audio jack. Since then, it has expanded to provide more integrations with Android and iOS devices, such as turning iPads into more comprehensive point-of-sale systems, and even creating their own point-of-sale systems with all the bells and whistles of standard payment terminals. Square has also enhanced their card readers to be able to accept contactless payments like Apple Pay. All of their hardware today are compliant with Payment Card Industry Data Security Standards.
 
+For its software use, Square leverages technologies in a number of ways. For one, it is using machine learning in its risk evaluation of giving loans to small businesses, greatly increasing the chance of small business receiving a loan, as opposed to the traditional lending eavenues [[8]](https://digital.hbs.edu/platform-rctom/submission/square-using-machine-learning-to-de-risk-small-business-lending/). Square also leverages cloud infrastructure to allow the processing of payments for merchants without the need for each merchant to own and maintain their own set of servers [[9]](https://squareup.com/us/en/townsquare/cloud-pos). They are likely also leveraging trends like big data and machine learning in their own determinations of market trends and evaluating the efficacy of their services and market penetration.
+
 ## Landscape
 
 
@@ -60,3 +62,7 @@ Regarding the technology used by Square, it can be broken up into hardware and s
 [6] https://www.sba.gov/sites/default/files/advocacy/2018-Small-Business-Profiles-US.pdf
 
 [7] https://www.fundera.com/blog/sba-definition-of-small-business
+
+[8] https://digital.hbs.edu/platform-rctom/submission/square-using-machine-learning-to-de-risk-small-business-lending/
+
+[9] https://squareup.com/us/en/townsquare/cloud-pos
