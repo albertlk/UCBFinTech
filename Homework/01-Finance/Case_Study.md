@@ -42,14 +42,21 @@ For its software use, Square leverages technologies in a number of ways. For one
 
 Because Square's seller ecosystem offerings are so diverse, it spans quite a few domains of the financial industry. For the purposes of this case study, we will be focusing primarily on the payment processing merchant acquiring aspect of Square's seller ecosystem business. 
 
-At a high level, merchant acquiring is needed for merchants to process card payments. They act as the merchant's acquiring bank, holding funds from the customers' issuing banks until it is time to be remitted to the merchant. Legacy acquirers include companies like Bank of America Merchant Services, First Data, and Chase Paymentech Solutions [[10]](https://www.capgemini.com/wp-content/uploads/2017/07/Challenges___Opportunities_for_Merchant_Acquirers.pdf). 
+At a high level, merchant acquiring is needed for merchants to process card payments. They act as the merchant's acquiring bank, holding funds from the customers' issuing banks until it is time to be remitted to the merchant. Legacy acquirers include companies like Bank of America Merchant Services, Fiserv (formerly First Data), and Chase Paymentech Solutions [[10]](https://www.capgemini.com/wp-content/uploads/2017/07/Challenges___Opportunities_for_Merchant_Acquirers.pdf). 
 
 Over the last five to ten years, there have been more and more companies emerging to allow small businesses to accept payment cards from a variety of sources. From point-of-sale systems, services like Clover, PayPal Here, and Stripe provide payment terminals that run through various rails that enable merchants to accept cards without setting up with legacy acquirers. As e-commerce has rapidly expanded in prominence over the last few years, services provided by companies like Shopify and Strip allow merchants to expand card acceptance to the digital realm, providing sets of APIs for their websites. A major selling point of these services is that the companies offering the services typically handle all of the payment credentials, and thus, the merchants themselves do not need to worry as much about PCI DSS and other data security standards.
 
-For Square, in the beginning, they were only competing against the legacy acquireres like BAMS, First Data, and Chase Paymentech, but as new players have innovated in this field, companies like Clover, PayPal, Stripe, and Shopify started jostling with Square for market share as well.
+For Square, in the beginning, they were only competing against the legacy acquireres like BAMS, Fiserv, and Chase Paymentech, but as new players have innovated in this field, companies like Clover, PayPal, Stripe, and Shopify started jostling with Square for market share as well. To further complicate matters, Clover was acquired by Fiserv in 2012, and many payment terminal services also process payments through various acquirers.
 
 ## Results
 
+Core metrics that companies in this domain use to measure success are payment volume or transaction volume processed through their systems. As different companies opt to report these in differing metrics, we will evaluate them based on the metrics they provide.
+
+Up through 2020 Q1 of Square's fiscal year, they had been seeing continual growth in their gross payment volume (GPV), ranging from 14% to 25% YoY growth. However, in 2020 Q2, there was a decrease in 15% YoY due to the COVID-19 pandemic. One bright spot though, was that in 2020 Q2, Square saw over 50% YoY growth in online channels as more merchants enrolled in their services and more consumers shifted from in-person shopping to online shopping [[11]](https://s21.q4cdn.com/114365585/files/doc_financials/2020/Q2/2020-Q2-Shareholder-Letter-Square.pdf). In terms of volume, the 2020 Q2 volume processed was marked at $22.8B, down from $26.8B the year before.
+
+Compared to legacy acquirers which process trillions of dollars of transactions a year -- Fiserv processes over $2.6T annually, Chase Paymentech processes over $1T annually [[12]](https://www.businessnewsdaily.com/8833-best-high-volume-credit-card-processor.html) [[13]](https://merchantservices.chase.com)-- Square's volume seems tiny, but it is important to note the rate at which it was growing year over year prior to the COVID-19 pandemic. 
+
+More comparable is Shopify's gross merchandise volume, which roughly equates to the GPV reported by Square. In 2019, Shopify processed $61B in GMV, which was up 49% YoY from 2018. Averaged across the quarters, this comes out to a little over $15B, putting Square ahead by about $7B per quarter. However, just as Square's growth rate was notable when compared to legacy acquirers, Shopify is currently outpacing Square in growth and would be a notable competitor to monitor.
 
 ## Recommendations
 
@@ -75,3 +82,9 @@ For Square, in the beginning, they were only competing against the legacy acquir
 [9] https://squareup.com/us/en/townsquare/cloud-pos
 
 [10] https://www.capgemini.com/wp-content/uploads/2017/07/Challenges___Opportunities_for_Merchant_Acquirers.pdf
+
+[11] https://s21.q4cdn.com/114365585/files/doc_financials/2020/Q2/2020-Q2-Shareholder-Letter-Square.pdf
+
+[12] https://www.businessnewsdaily.com/8833-best-high-volume-credit-card-processor.html
+
+[13] https://merchantservices.chase.com
