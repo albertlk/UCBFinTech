@@ -54,12 +54,17 @@ Core metrics that companies in this domain use to measure success are payment vo
 
 Up through 2020 Q1 of Square's fiscal year, they had been seeing continual growth in their gross payment volume (GPV), ranging from 14% to 25% YoY growth. However, in 2020 Q2, there was a decrease in 15% YoY due to the COVID-19 pandemic. One bright spot though, was that in 2020 Q2, Square saw over 50% YoY growth in online channels as more merchants enrolled in their services and more consumers shifted from in-person shopping to online shopping [[11]](https://s21.q4cdn.com/114365585/files/doc_financials/2020/Q2/2020-Q2-Shareholder-Letter-Square.pdf). In terms of volume, the 2020 Q2 volume processed was marked at $22.8B, down from $26.8B the year before.
 
-Compared to legacy acquirers which process trillions of dollars of transactions a year -- Fiserv processes over $2.6T annually, Chase Paymentech processes over $1T annually [[12]](https://www.businessnewsdaily.com/8833-best-high-volume-credit-card-processor.html) [[13]](https://merchantservices.chase.com)-- Square's volume seems tiny, but it is important to note the rate at which it was growing year over year prior to the COVID-19 pandemic. 
+Compared to legacy acquirers which process trillions of dollars of transactions a year -- Fiserv processes over $2.6T annually, Chase Paymentech processes over $1T annually [[12]](https://www.businessnewsdaily.com/8833-best-high-volume-credit-card-processor.html), [[13]](https://merchantservices.chase.com)-- Square's volume seems tiny, but it is important to note the rate at which it was growing year over year prior to the COVID-19 pandemic. 
 
 More comparable is Shopify's gross merchandise volume, which roughly equates to the GPV reported by Square. In 2019, Shopify processed $61B in GMV, which was up 49% YoY from 2018. Averaged across the quarters, this comes out to a little over $15B, putting Square ahead by about $7B per quarter. However, just as Square's growth rate was notable when compared to legacy acquirers, Shopify is currently outpacing Square in growth and would be a notable competitor to monitor.
 
 ## Recommendations
 
+I would advise Square to start investing in blockchain technologies to facilitate faster cross border remittances. As one of Visa's five trends transforming commerce [[14]](https://usa.visa.com/visa-everywhere/innovation/5-digital-payment-trends-transforming-commerce.html), not only will this be beneficial for Square's seller ecosystem business, but it will also improve its Cash App service. 
+
+For the seller ecosystem, once Square is able to seamlessly facilitate cross border payments, they would be able to expand their offerings to larger merchants who operate in multiple currencies. Through blockchain and stablecoins, these merchants would no longer need to deal with the hassles of currency conversions and remittances through legacy banks and networks and would be able to consolidate all their services through Square. This would also benefit Square in that it would have more data and insights in cross border trends to determine future market expansion strategy.
+
+For its Cash App services, Square would be able to expand its services to the large populations of migrant workers who are located around the world who send money back to their home countries. By simplifying the process and reducing the cost of remittances, Square could establish a firm presence in these emerging markets.
 
 ## References
 
