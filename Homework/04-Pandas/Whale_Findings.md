@@ -42,7 +42,7 @@ When displaying the 21 day rolling window, we see that , for the most part, the 
 ### Correlation Table
 
 |   |Soros Fund Management LLC|Paulson & Co., Inc.|Tiger Global Management LLC| Berkshire Hathaway, Inc.|Algo 1|Algo 2|S&P 500|
-|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|
 |**Soros Fund Management LLC**|1.000|0.699|0.561|0.754|0.321|0.827|0.838|
 |**Paulson & Co., Inc.**|0.699|1.000|0.434|0.546|0.269|0.678|0.670|
 |**Tiger Global Mangement LLC**|0.561|0.434|1.000|0.424|0.164|0.507|0.624|
