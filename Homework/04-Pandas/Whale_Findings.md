@@ -19,7 +19,7 @@ From the plot of the cumulative returns, it appears that there are only two port
 
 Moving onto the box plots, we are able to discern the spread of the returns for the various portfolios. We see that Tiger Global had the largest spread by far and that Paulson & Co, Inc was the smallest spread, followed closely by Algo 2. However, it is important to note that the Berkshire Hathaway's spread within one standard deviation of its mean was the largest (as shown by the largest "box"), indicating that their stocks overall likely had a larger spread -- compared to Tiger Global which had large spreads among the outliers, but tighter spread within one standard deviation of its mean.
 
-### Standard Deviations
+### Annualized Standard Deviations
 
 |Portfolio                  |Annualized Standard Deviation|
 |---                        |-----|
@@ -33,7 +33,7 @@ Moving onto the box plots, we are able to discern the spread of the returns for 
 
 When comparing standard deviations for each portfolio, we see that both Tiger Global and Berkshire Hathaway's portfolios come in as riskier than the S&P 500 -- this is likely due to the factors mentioned above -- a larger overall spread in Berkshire Hathaway's portfolio and high ranges between outliers for Tiger Global's portfolio.
 
-### Rollings Standard Deviation
+### Rolling Standard Deviation
 
 ![Rolling Standard Deviation](Images/21_Day_Rolling_SDev.png)
 
@@ -91,4 +91,50 @@ When comparing the cumulative returns against the rest of the portfolios, it far
 
 ## Risk
 
-In
+### Annualized Standard Deviation
+
+In terms of risk, the custom portfolio tended on the higher side. For annualized standard deviation, it ranked the highest in terms of risk, as highlighted in the below table.
+
+|Portfolio                  |Annualized Standard Deviation|
+|---                        |-----|
+|Soros Fund Management LLC  |0.147|
+|Paulson & Co., Inc.        |0.117|
+|Tiger Global Management LLC|0.233|
+|Berkshire Hathaway, Inc.   |0.247|
+|Algo 1                     |0.134|
+|Algo 2                     |0.140|
+|S&P 500                    |0.152|
+|**Custom**                     |**0.297**|
+
+### Rolling Standard Deviation
+
+When comparing the standard deviation through a 21 day window, it can also be seen that the custom portfolio tended to have higher volatility than the other portfolios.
+
+![Custom Rolling Standard Deviation](Images/21_Day_Rolling_SDev_Custom.png)
+
+### Custom Beta Comparison
+
+Finally, when calculating the beta value of the custom portfolio, it can clearly be seen that it was riskier than the market for nearly the whole period. 
+
+![Custom Beta](Images/Beta_Custom.png)
+
+### Sharpe Ratios
+
+|Portfolio                  |Annualized Sharpe Ratios|
+|---                        |-----|
+|Soros Fund Management LLC  | 0.431|
+|Paulson & Co., Inc.        | 0.259|
+|Tiger Global Management LLC|-1.034|
+|Berkshire Hathaway, Inc.   | 0.160|
+|Algo 1                     | 2.036|
+|Algo 2                     | 0.081|
+|S&P 500                    | 0.584|
+|Custom                     | 1.049|
+
+![Custom Sharpe Ratios](Images/Annualized_Sharpes_Custom.png)
+
+From the Sharpe Ratio analysis, it seems that the custom portfolio trails only Algo 1 in terms of risk to return trade-off, outperforming the S&P 500 by a slim margin and the rest of the portfolios by a substantial amount.
+
+### Risk Conclusions
+
+From this analysis, it does seem that the custom portfolio is riskier than the other portfolios and the market. However, it should be taken into consideration that the custom portfolio consisted of only 3 stocks while the other portfolios and the market consist of many more, diversifying their holding and reducing the volatility of their portfolios. As more stocks are added to the custom portfolio, it can be expected that the volatility decreases as well.
