@@ -17,7 +17,9 @@ After the models were fit and predictions were made, key metrics were calculated
 As we can see in the table:
 
 **RandomOversampler** had the best balanced accuracy score
+
 **RandomOversampler** also had the best recall score
+
 **RandomOversampler and SMOTE** were tied for the best geometric mean score
 
 From this comparison, I would select RandomOversampler to conduct the predictions though I would not be too reliant on the results as even the best scores are relatively low.
